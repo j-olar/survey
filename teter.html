@@ -1,0 +1,252 @@
+<html>
+<head>
+<title>Survey LOCAGE.com</title>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e0e0e0; 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header {
+  background-color: rgb(143, 225, 255)fff;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+
+
+}
+
+.footer {
+  background-color:#AE7D44;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.question-container {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.question {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.button {
+  background-color: #c0b9a5;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+
+.question-container:nth-child(1) {
+  background-color: #FF0000;
+}
+
+.question-container:nth-child(2) {
+  background-color: #FF7F00; 
+}
+
+.question-container:nth-child(3) {
+  background-color: #FFFF00;
+}
+
+.question-container:nth-child(4) {
+  background-color: #00FF00; 
+}
+
+.question-container:nth-child(5) {
+  background-color: #0000FF; 
+}
+
+.question-container:nth-child(6) {
+  background-color: #4B0082; 
+}
+
+.question-container:nth-child(7) {
+  background-color: #9400D3; 
+}
+
+.question-container:nth-child(8) {
+  background-color: #FF0000;
+}
+
+.question-container:nth-child(9) {
+  background-color: #FF7F00; 
+}
+
+.question-container:nth-child(10) {
+  background-color: #FFFF00;
+}
+</style>
+</head>
+<body background="C:\Users\Jannize\Downloads\ts.png"; >
+
+<header class="header">
+  <h1 style="color: #e0e0e0;">Survey 8-Jade</h1>
+</header>
+
+
+<center><img src="C:\Users\Jannize\Downloads\Hey, Disney Lovers!.gif" alt="toystory"></center>
+<br>
+<br>
+
+<div class="container">
+
+<form id="userSurveyForm" class="form">
+
+    <div class="question-container">
+        <div class="question">
+          <label class="label" for="q1">Can I know your name?</label>
+        </div>
+        <input type="text" id="q1" placeholder="Name" class="name">
+      </div>
+    
+      <div class="question-container">
+        <div class="question">
+          <label class="label" for="q2">How old are you? (don't worry, we do not judge)</label>
+        </div>
+         <input type="text" id="q2" placeholder="Age" class="age">
+      </div>
+    
+      <div class="question-container">
+        <div class="question">
+          <label class="label" for="q3">When is your birthday? (So that we can send you some greetings!)</label>
+        </div>
+       <input type="date" id="q3">
+      </div>
+    
+      <div class="question-container">
+        <div class="question">
+          <label class="label" for="q4">What city were you born?</label>
+        </div>
+        <select id="q4" name="q4">
+          <option value="Manila">Manila</option>
+          <option value="Cebu">Cebu</option>
+          <option value="Cabanatuan">Cabanatuan</option>
+          <option value="Baguio">Baguio</option>
+          <option value="Tarlac">Tarlac</option>
+          <option value="Aurora">Aurora</option>
+          <option value="Ilocos Norte">Ilocos Norte</option>
+        </select>
+      </div>
+    
+      <div class="question-container">
+        <div class="question">
+          <label class="label" for="q5">How tall are you? (in feet and inches or centimeters, your choice!)</label>
+        </div>
+        <textarea id="q5" name="q5" rows="4" cols="50"></textarea>
+      </div>
+    
+      <div class="question-container">
+        <div class="question">
+          <label class="label" for="q6">How many siblings do you have?</label>
+        </div>
+        <input type="number" id="q6">
+      </div>
+    
+      <div class="question-container">
+        <div class="question">
+          <label class="label" for="q7">How would you describe your current fitness level?</label>
+        </div>
+        <input type="radio" id="q7_excellent" name="q7" value="Excellent">
+        <label for="q7_excellent">Excellent</label><br>
+        <input type="radio" id="q7_good" name="q7" value="Good">
+        <label for="q7_good">Good</label><br>
+        <input type="radio" id="q7_fair" name="q7" value="Fair">
+        <label for="q7_fair">Fair</label><br>
+        <input type="radio" id="q7_poor" name="q7" value="Poor">
+        <label for="q7_poor">Poor</label>
+      </div>
+    
+      <div class="question-container";>
+        <div class="question">
+          <label class="label" for="q8">Can I have your number? (So that I have a textmate, kidding!)</label>
+        </div>
+        <input type="tel" id="q8" name="q8" placeholder="123-456-789" required> 
+      </div>
+    
+      <div class="question-container">
+        <div class="question">
+          <label class="label" for="q9">Can you also give us your email? (So that we can keep you updated!)</label>
+        </div>
+        <input type="text" id="q9" placeholder="Email" class="email">
+      </div>
+
+  <div class="question-container">
+    <div class="question">
+      <label class="label" for="q10">And lastly, can we know your gender?</label>
+    </div>
+    <input type="radio" id="q10_female" name="q10" value="Female">Female
+    <br>
+    <input type="radio" id="q10_male" name="q10" value="Male">Male
+    <br>
+    <input type="radio" id="q10_other" name="q10" value="Other">Other
+  </div>
+
+  <div class="button-container">
+    <input type="submit" value="Submit" class="button" onclick="saveSurveyData()">
+  </div>
+
+</form>
+
+</div>
+</div>
+
+<footer class="footer">
+  <p>all right reserved @olargonzalesesguerramesinapunzalanaquino.com</p>
+</footer>
+
+<script>
+function saveSurveyData() {
+  var q1 = document.getElementById("q1").value;
+  var q2 = document.getElementById("q2").value;
+  var q3 = document.getElementById("q3").value;
+  var q4 = document.getElementById("q4").value;
+  var q5 = document.getElementById("q5").value;
+  var q6 = document.getElementById("q6").value;
+  var q7 = document.querySelector('input[name="q7"]:checked').value;
+  var q8 = document.getElementById("q8").value;
+  var q9 = document.getElementById("q9").value;
+  var q10 = document.querySelector('input[name="q10"]:checked').value;
+
+  localStorage.setItem("q1", q1);
+  localStorage.setItem("q2", q2);
+  localStorage.setItem("q3", q3);
+  localStorage.setItem("q4", q4);
+  localStorage.setItem("q5", q5);
+  localStorage.setItem("q6", q6);
+  localStorage.setItem("q7", q7);
+  localStorage.setItem("q8", q8);
+  localStorage.setItem("q9", q9);
+  localStorage.setItem("q10", q10);
+
+  alert("Your data has been saved");
+}
+</script>
+
+</body>
+</html>
